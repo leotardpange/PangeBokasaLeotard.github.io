@@ -1,12 +1,15 @@
+*{
+  margin:0;
+  padding:0;
+}
 body {
   font-family: Arial, sans-serif;
-  margin: 30px;
   background-color: #f7f6f2;
 }
 
 header{   
   background: skyblue;
-
+  
 
 }
 
