@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscription</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="inscription.html">Inscription</a></li>
+        <li><a href="liste-eleves.html">Liste des élèves</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <form>
+  <h1>Formulaire d'inscription</h1>
+  <form id="formulaire-inscription">
+    <label>Nom :</label>
+    <br>
+    <input type="text" id="nom" required><br>
+    <label>Postnom :</label>
+    <br>
+    <input type="text" id="postnom" required><br>
+
+    <label>Prénom :</label>
+    <br>
+    <input type="text" id="prenom" required><br>
+
+    <label>Date de naissance :</label>
+    <br>
+    <input type="date" id="dob" required><br>
+      <br>
+    <label>Classe :</label>
+    <br>
+    <select id="classe">
+      <br>
+      <option>1ère</option>
+      <option>2e</option>
+      <option>3e</option>
+    </select><br>
+      <br>
+    <button type="submit">S'inscrire</button>
+    <br>
+  </form>
+  
+</body>
+</html>
